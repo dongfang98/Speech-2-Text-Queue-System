@@ -1,5 +1,5 @@
 # Speech-2-Text-Queue-System
-After test with stub functions, I found my computer can run 16 API calls simultaneously, with 8 Intel Core i9.  
+After testing with stub functions, I found my computer can run 16 API calls simultaneously, with 8 Intel Core i9.  
 API: https://towardsdatascience.com/easy-speech-to-text-with-python-3df0d973b426
 
 ## Phase 1: Build Queue System
