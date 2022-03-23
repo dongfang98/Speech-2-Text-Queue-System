@@ -1,7 +1,7 @@
 # Speech-2-Text-Queue-System
-After testing with stub functions, I found my computer can run 16 API calls simultaneously, with 8 Intel Core i9.  
-So I implement the function of processing 16 speech files at the same time with 'speech_recognition' API.  
-The API uses a deep neural network model called Hidden Markov Model (HMM) to convert the audio into text. 
+  - After testing with stub functions, I found my computer can run 16 API calls simultaneously, with 8 Intel Core i9.  
+  - Implement the function of processing 16 speech files at the same time with 'speech_recognition' API.  
+  - The API uses a deep neural network model called Hidden Markov Model (HMM) to convert the audio into text. 
 
 ## Phase 1: Build Queue System
 ### 1.1 Multiprocess
