@@ -14,3 +14,6 @@ Run 17 stub functions of 3 seconds⬇️
 
 I also write two functions to put and get numbers from a queue, with tracking interface to show how many processes are going on and success of each.  
 <img width="530" alt="image" src="https://user-images.githubusercontent.com/78338843/159695979-d7bef7f9-ee8e-4e25-898b-e53bdc0647e0.png">
+### Mutithread
+In 'mutithread.py', I implement one process with two threads calculating '8 ** 20'.   
+<img width="530" alt="image" src="https://user-images.githubusercontent.com/78338843/159696921-5121b4d1-2665-48a6-aa36-43a00bc19def.png">
