@@ -5,7 +5,7 @@
 
 ## Phase 1: Build Queue System
 ### 1.1 Multiprocess
-In 'multiprocess.py', I develop a queue system to exercise my requirements with stub functions return after 3 seconds. Test it with different parameters.  
+In 'multiprocess.py', I develop a queue system to exercise my requirements with stub functions return after 3 seconds, tested with different parameters.  
 The computer takes 3.2430672645568848 seconds to deal with 16 processes, but take 6.203618049621582 seconds to run 17 processes, which means 16 API calls can be run simultaneously.  
 Run 16 stub functions of 3 seconds⬇️  
 <img width="530" alt="image" src="https://user-images.githubusercontent.com/78338843/159695027-4054d241-91a9-4194-a1d5-5f80364d948c.png">  
