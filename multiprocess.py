@@ -13,7 +13,7 @@ def long_time_task(name):
 
 #add to the queue
 def put(q):
-    for i in range(8):
+    for i in range(5):
         q.put(str(i))
         print('put %s' % i)
     q.put(None)
@@ -30,6 +30,7 @@ def get(q):
 
 #n is the number of processes
 def main(n):
+
     print ('Parent process %s.' % os.getpid())
     start = time.time()
     p = Pool()
@@ -40,7 +41,9 @@ def main(n):
     p.join()
     print ('All subprocesses done.')
     end = time.time()
-    print("总共用时{}秒".format((end - start)))
+    print("Totally used {} seconds".format((end - start)))
+
+
     print('main task start')
     q = Queue()
     p1 = Process(target=put, args=(q, ))
@@ -52,4 +55,4 @@ def main(n):
     print ('main task done')
     
 if __name__ == '__main__':
-	main(17)
+	main(16)
