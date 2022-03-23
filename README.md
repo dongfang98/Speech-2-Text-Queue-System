@@ -1,6 +1,7 @@
 # Speech-2-Text-Queue-System
 After testing with stub functions, I found my computer can run 16 API calls simultaneously, with 8 Intel Core i9.  
-API: https://towardsdatascience.com/easy-speech-to-text-with-python-3df0d973b426
+So I implement the function of processing 16 speech files at the same time with 'speech_recognition' API.  
+The API uses a deep neural network model called Hidden Markov Model (HMM) to convert the audio into text. 
 
 ## Phase 1: Build Queue System
 ### 1.1 Multiprocess
@@ -19,3 +20,6 @@ In 'mutithread.py', I implement one process with two threads calculating '8 ** 2
 ## Phase 2: Speech to Text
 In 'S2T_multiprocess.py', 16 API calls run simultaneously, which means 16 speech files can be processed at the same time.  
 <img width="1084" alt="image" src="https://user-images.githubusercontent.com/78338843/159720872-a0f36abc-e90b-4336-a8b6-02ab6a135210.png">
+
+## Reference
+API: https://towardsdatascience.com/easy-speech-to-text-with-python-3df0d973b426
