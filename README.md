@@ -15,3 +15,10 @@ I also write two functions to put and get numbers from a queue, with tracking in
 ### 1.2 Mutithread
 In 'mutithread.py', I implement one process with two threads calculating '8 ** 20'.   
 <img width="530" alt="image" src="https://user-images.githubusercontent.com/78338843/159696921-5121b4d1-2665-48a6-aa36-43a00bc19def.png">
+
+## Phase 2: Speech to Text
+### 2.1 S2T_multiprocess
+In 'S2T_multiprocess.py', 16 API calls run simultaneously, which means 16 speech files can be processed at the same time.  
+<img width="1084" alt="image" src="https://user-images.githubusercontent.com/78338843/159720872-a0f36abc-e90b-4336-a8b6-02ab6a135210.png">
+### 2.2 S2T_multithread
+In 'S2T_multithread.py',
